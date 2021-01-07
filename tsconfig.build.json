@@ -1,0 +1,16 @@
+{
+    "extends": "./tsconfig.base.json",
+    "compilerOptions": {
+        "types": []
+    },
+    "include": [
+        "src/**/*.ts",
+        "types/**/*.ts"
+    ],
+    "exclude": [
+        "src/**/*.spec.ts",
+        "src/**/*.test.ts",
+        "src/**/test-utils/**/*.ts",
+        "src/**/__mocks__/**/*.ts"
+    ]
+}
